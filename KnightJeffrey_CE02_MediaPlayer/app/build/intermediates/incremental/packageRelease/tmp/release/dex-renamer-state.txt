@@ -1,0 +1,4 @@
+#Sun Dec 08 22:00:27 EST 2019
+base.0=/Users/jeffreyknight/AndroidStudioProjects/KnightJeffrey_CE02_MediaPlayer/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
