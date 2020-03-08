@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">KnightJeffrey_CE07_CanvasDrawing</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="game_credits">Game Credits</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="inventory">Inventory</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="credits">Credits</string>
+    <string name="game_created_by">Game Created By:</string>
+    <string name="jeffrey_knight">Jeffrey Knight</string>
+    <string name="game_resources">Game Resources:</string>
+    <string name="full_sail_university">Full Sail University</string>
+    <string name="my_inventory">My Inventory</string>
+</resources>
