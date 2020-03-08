@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMediaFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:text="Song Title"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        style="@style/MediaPlayerLayoutSpacing"/>
+
+    <ImageView
+        android:id="@+id/album_art"
+        style="@style/MediaPlayerLayoutSpacing"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+    <SeekBar
+        android:id="@+id/song_duration_SB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MediaPlayerLayoutSpacing"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        style="@style/MediaPlayerLayoutSpacing"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp">
+
+        <TextView
+            android:id="@+id/current_time_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/song_duration_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"/>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    style="@style/MediaPlayerLayoutSpacing"
+    android:layout_marginTop="5dp">
+
+    <ImageButton
+        android:id="@+id/button_previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_media_rew"
+        android:layout_weight="1"
+        style="@style/MediaPlayerButtonSpacing"/>
+
+    <ImageButton android:id="@+id/button_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_media_play"
+        android:layout_weight="1"
+        style="@style/MediaPlayerButtonSpacing"/>
+
+
+    <ImageButton
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_media_ff"
+        android:layout_weight="1"
+        style="@style/MediaPlayerButtonSpacing"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        style="@style/MediaPlayerLayoutSpacing">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repeat"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"/>
+
+
+        <Switch
+            android:id="@+id/repeat_switch"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton android:id="@+id/button_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_pause"
+            android:layout_weight="1"
+            style="@style/MediaPlayerButtonSpacing"/>
+
+        <ImageButton android:id="@+id/button_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_stop"
+            android:layout_weight="1"
+            style="@style/MediaPlayerButtonSpacing"/>
+
+    </LinearLayout>
+
+</LinearLayout>
