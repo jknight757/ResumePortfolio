@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Knightjeffrey_CE04_Java2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_numbers">Phone Numbers</string>
+</resources>
